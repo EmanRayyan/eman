@@ -1,0 +1,833 @@
+body{
+direction: ltr;
+font-family: 'Lato', sans-serif;
+
+}
+.bg-dark {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#808080+0,0b0b0b+46,010101+50,090909+53,434343+76,303030+87,171717+100 */
+background: rgb(128,128,128); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(128,128,128,1) 0%, rgba(11,11,11,1) 46%, rgba(1,1,1,1) 50%, rgba(9,9,9,1) 53%, rgba(67,67,67,1) 76%, rgba(48,48,48,1) 87%, rgba(23,23,23,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(128,128,128,1) 0%,rgba(11,11,11,1) 46%,rgba(1,1,1,1) 50%,rgba(9,9,9,1) 53%,rgba(67,67,67,1) 76%,rgba(48,48,48,1) 87%,rgba(23,23,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(128,128,128,1) 0%,rgba(11,11,11,1) 46%,rgba(1,1,1,1) 50%,rgba(9,9,9,1) 53%,rgba(67,67,67,1) 76%,rgba(48,48,48,1) 87%,rgba(23,23,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#171717',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.navbar-dark .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding:15px 25px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+.logo1{
+    height: 69px;
+    width: 213px;
+
+}
+.btnStart{
+	border-radius: 13px;
+    background: #524f4f;
+}
+li.btnStart a.nav-link:hover{
+	border: 3px solid #524f4f ;
+	border-radius: 13px;
+}
+
+.btnStart .nav-link:hover{
+	text-decoration: none !important;
+}
+
+.mainSec{
+    width: 100%;
+    height: 554px;
+}  
+.mainSec h1 {
+   font-family: 'Anton', sans-serif;
+
+    margin-top: 78px;
+    color: #000000;
+    font-size: 43px;
+    font-weight: bold;
+
+}
+.mainSec h3{
+    color: black;
+    font-size: 23px;
+    /* display: block; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.mainSec a.btn-light{
+    background: black;
+    /* color: #d90746; */
+    color: white;
+    border-radius: 13px;
+    height: 56px;
+    line-height: 42px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 60px;
+    padding-left: 60px;
+   margin-right: 20px;
+
+}
+.mainSec .properties{
+   margin-right: 32px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+img.mainPhoto {
+    margin-left: 95px;
+    width: 73%;
+    margin-top: 58px;
+}
+
+.mainSec a.btn-light:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+
+}
+.mainSec .container,
+.mainSec .container .row{
+    height: 980px;
+}
+
+.section{
+    height: auto;
+    /* border-bottom: 1px solid #e0e0e0; */
+    background: #c3c0c040;
+    margin-left: 55px;
+    margin-right: 55px;
+    text-align: center;
+  }
+  .features h2{
+    margin-top: 20px;
+    font-style: bold;
+   font-size: 40px;
+   color: black;
+
+  }
+
+p.featuresDesc{
+    font-size: 18px;
+    color: #808080;
+}
+
+
+
+
+  /* EAQ page style */
+  /* EAQ page style */
+  /* EAQ page style */
+  /* EAQ page style */
+
+.mainFAQ {
+  	width: 1200px;
+    height: auto;
+    margin: 90px 106px;
+    background: #a8a8ab;
+    padding-bottom: 40px;
+
+  }
+.mainFAQ h1{
+    font-size: 50px;
+    padding-left: 183px;
+    padding-top: 27px;
+    padding-bottom: 8px;
+    font-family: 'Anton', sans-serif;
+
+  }
+.mainFAQ p{
+  	text-align: center;
+  	font-style: bold;
+  	font-size: 20px;
+
+  }
+.mainFAQ p span{
+    margin-left: -592px;
+  }
+.imgFAQ{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 5px 41px; 
+  }
+.minySec{
+   margin: 0 70px 40px 70px;
+   background: #fbf5f5;
+  }
+.subMinySec{
+  	border-bottom: 1px solid #a8a8ab;
+  }
+.qestion{
+	/*margin-right: 710px;*/
+    font-size: 20px;
+    padding: 19px 0 0 30px;
+    text-align: left !important;  
+}
+.answersFQA{
+    text-align:   justify !important  ;
+    margin-right: 38px;  
+}
+
+
+
+/* About Us Style*//* About Us Style*//* About Us Style*//* About Us Style*//* About Us Style*/
+/* About Us Style*/
+/* About Us Style*/
+/* About Us Style*/
+.aboutUs{
+  margin-bottom:  100px;
+}
+.titleAboutUs{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  margin: 125px 0px 40px 0;
+  font-size: 65px;
+
+}
+.txtAboutUs{
+  text-align: justify;
+  font-size: 20px;
+  margin: 0px 300px 100px 300px;
+}
+.teamPhoto .row .col-md-3{
+   width:  100%;
+  text-align: center;
+  padding:  20px;
+  margin-top:   20px;
+  margin-bottom:  20px;
+  
+}
+.info{
+  width: 253px;
+  height: 324px;
+  padding:   24px;
+  border:  .5px solid  gray;
+  border-radius:  10px;
+}
+
+.photoAboutUs{
+  border-radius: 50%;
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 21px;
+}
+
+
+
+
+
+/*Blog style*//*Blog style*//*Blog style*//*Blog style*//*Blog style*//*Blog style*//*Blog style*/
+/*Blog style*/
+/*Blog style*/
+
+.row1{
+  margin: 60px -25px 273px 0;
+}
+
+.titleBlog{
+  text-align: center;
+  margin: 120px 0 0 0;
+   font-family: 'Anton', sans-serif;
+}
+
+
+.articleBlog a img {
+    width: 357px;
+    height: 230px;
+    /*border-top-left-radius: 29px;*/
+   position: absolute;
+  }
+.articleBlog a{
+    text-decoration: none;
+  }
+.articleBlog a h5 {
+    color: black;
+    background: white;
+    position: relative;
+    top: 194px;
+    width: 303px;
+    left: 26px;
+    text-align: center;
+
+  }
+/*.publisherInfo img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline;
+}*/
+
+/*.ee {
+  color: black !important;
+}*/
+
+.publisherInfo a img {
+   border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 195px;
+    left: 103px;
+
+}
+.publisherInfo a h6 {
+  color: black ;
+    position: relative;
+    top: 162px;
+    left: 165px;
+}
+
+
+
+
+
+
+/*Q1 blog start*//*Q1 blog start*//*Q1 blog start*//*Q1 blog start*/
+/*Q1 blog start*/
+.q1Blog h5 {
+  font-family: 'Anton', sans-serif;
+    color: gray;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.q1Blog h1 {
+  font-family: 'Anton', sans-serif;
+   text-align: center;
+   margin-bottom: 40px;
+
+}
+a.publisherInfoBlog {
+    display: flex;
+    margin-top: -23px;
+    margin-left: 579px;
+    text-decoration: none;
+}
+.publisherInfoBlog img {
+   border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+}
+.publisherInfoBlog h6 {
+  color: black;
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 13px;
+
+}
+.q1BlogImg {
+    margin-left: 240px;
+    width: 857px;
+    height: 406px;
+    margin-bottom: 42px;
+    margin-top: 55px;
+}
+.paragraphBlog{
+    text-align: justify;
+    margin: 0 305px 30px 305px;
+    font-size: 20px;
+}
+.shareIt{
+    display: flex;
+    margin-left: 521px;
+    margin-bottom: 24px;
+}
+.shareBlog{
+    font-size: 2rem;
+    margin-left: 26px;
+    margin-top: 4px;
+
+
+}
+.q1Blog p img {
+  margin-left: 134px;
+}
+
+
+
+
+
+
+
+/*Log in page*//*Log in page*//*Log in page*//*Log in page*//*Log in page*//*Log in page*//*Log in page*//*Log in page*//*Log in page*//*Log in page*//*Log in page*/
+/*Log in page*/
+.logIn{
+  background: gray;
+  height: 625px;
+  padding-top: 50px;
+}
+
+.logIn img {
+  width: 290px;
+    height: 142px;
+    margin-left: 508px;
+  }
+
+.logIn h2{
+  margin-left: 523px;
+  color: white;
+}
+
+.logInInput{
+  margin-left: 500px;
+  margin-top: 20px;
+}
+.logInInput input {
+    width: 302px;
+    display: block;
+    padding-right: 3px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+
+
+}
+.logInInput button {
+  border: none;
+    padding-right: 80px;
+    padding-left: 91px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background: #002d48;;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.logIn p {
+    margin-left: -33px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+/*CREAT VOT START*/
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#808080+0,0b0b0b+46,010101+50,090909+53,434343+76,303030+87,171717+100 */
+  background: rgb(128, 128, 128);
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(128, 128, 128, 1) 0%, rgba(11, 11, 11, 1) 46%, rgba(1, 1, 1, 1) 50%, rgba(9, 9, 9, 1) 53%, rgba(67, 67, 67, 1) 76%, rgba(48, 48, 48, 1) 87%, rgba(23, 23, 23, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(128, 128, 128, 1) 0%, rgba(11, 11, 11, 1) 46%, rgba(1, 1, 1, 1) 50%, rgba(9, 9, 9, 1) 53%, rgba(67, 67, 67, 1) 76%, rgba(48, 48, 48, 1) 87%, rgba(23, 23, 23, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(128, 128, 128, 1) 0%, rgba(11, 11, 11, 1) 46%, rgba(1, 1, 1, 1) 50%, rgba(9, 9, 9, 1) 53%, rgba(67, 67, 67, 1) 76%, rgba(48, 48, 48, 1) 87%, rgba(23, 23, 23, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#808080', endColorstr='#171717', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar button {
+  margin-left: 14px;
+  padding: 4px 35px;
+  color: wheat;
+  background: black
+}
+
+.sidebar button:hover {
+  cursor: cell;
+  background: white
+}
+
+.sidebar h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  margin: 29px 10px;
+  text-align: center;
+  color: wheat;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 39px 30px;
+  height: 1000px;
+}
+
+.content h3 {
+  display: block;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+.content input {
+  width: 569px;
+  padding: 8px;
+  margin-top: 17px;
+  border-radius: 4px;
+}
+
+.content .subSection .editTitle {
+  border: .6px solid #007bff;
+  border-radius: 4px;
+  padding: 8px;
+  margin-left: 8px;
+  background: #007bff0d;
+}
+
+.subSection {
+  margin-bottom: 23px;
+}
+
+.btn-popover {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #2d435b;
+  border-radius: 8px;
+  color: #2d435b;
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  font-size: 9px;
+  font-family: Roboto;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.votingMethod {
+  margin-bottom: 20px;
+}
+
+.votingMethod td {
+  border: .5px solid black;
+  padding-left: 71px;
+  padding-right: 71px;
+}
+
+.row {
+  margin-bottom: 24px;
+}
+
+.row .btn {
+  padding: 8px 17px;
+  /* color: wheat; */
+  background: #007bff0d;
+  border: .6px solid #007bff;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  right: 219px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+/*CREAT VOT  page END*/
+/*vot info page start*/
+div.content2 {
+  margin-left: 200px;
+  height: 1000px;
+}
+
+.content2 .sidebar {
+  width: 300px;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 200px;
+}
+
+.content2 .sidebar p {
+  font-size: 31px;
+  text-align: center;
+  color: wheat;
+}
+
+.content2 .sidebar .options {
+  color: wheat;
+  margin: 45px 5px;
+}
+
+.content2 .sidebar .METHOD {
+  color: wheat;
+  margin: 45px 5px;
+}
+
+.content2 .sidebar .options p, .content2 .sidebar .METHOD p, .content2 .sidebar .ACSESS p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.content2 .sidebar .options span, .content2 .sidebar .METHOD span, .content2 .sidebar .ACSESS span {
+  color: #f5deb3c2;
+}
+
+.content2 .sidebar .row {
+  margin: 0px;
+  padding: 0px;
+  color: wheat;
+  margin-left: -9px;
+}
+
+.content2 .sidebar .ACSESS {
+  color: wheat;
+  margin: 45px 5px;
+}
+
+.content2 .InnerContent {
+  margin-left: 300px;
+  padding: 94px 109px;
+  padding-right: 443px;
+  height: 1000px;
+  background: #ecdd6e6b;
+}
+
+.content2 .InnerContent .VotLink {
+  margin-top: 55px;
+  margin-bottom: 155px;
+}
+
+.content2 .InnerContent .VotLink input {
+  background: none;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 10px;
+  border: 1.1px solid black;
+  width: 232px;
+  padding: 8px
+}
+
+.content2 .InnerContent .VotLink .btnVot {
+  background: none;
+  border-radius: 4px;
+  border: 1.1px solid black;
+  width: 64px;
+  font-size: 13px;
+}
+
+.content2 .InnerContent .btnVot {
+  background: none;
+  border-radius: 12px;
+  border: 1.1px solid black;
+  width: 146px;
+  font-size: 13px;
+}
+
+/*vot info page end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scrollNav{
+    background: rgba(0,0,0,0.5) !important; 
+}
+.backToTop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom , #d90646 , #eb3f2d);
+    color: white;
+    text-align: center;
+    right: 20px;
+    bottom: 70px;
+    border:1px solid white;
+    font-size: 20px;
+    line-height: 48px;
+    z-index: 10;
+    opacity: 0.6;
+    transition-duration: 0.2s;
+    display: none;
+}
+.backToTop:hover{
+    color: white;
+    opacity: 1;
+    transition-duration: 0.2s;
+    line-height: 30px;
+}
+.visible{
+    display: block;
+}
+
+
+
+
+
+
+
+/*footer section */
+.footer {
+  padding: 45px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#808080+0,0b0b0b+46,010101+50,090909+53,434343+76,303030+87,171717+100 */
+background: rgb(128,128,128); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(128,128,128,1) 0%, rgba(11,11,11,1) 46%, rgba(1,1,1,1) 50%, rgba(9,9,9,1) 53%, rgba(67,67,67,1) 76%, rgba(48,48,48,1) 87%, rgba(23,23,23,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(128,128,128,1) 0%,rgba(11,11,11,1) 46%,rgba(1,1,1,1) 50%,rgba(9,9,9,1) 53%,rgba(67,67,67,1) 76%,rgba(48,48,48,1) 87%,rgba(23,23,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(128,128,128,1) 0%,rgba(11,11,11,1) 46%,rgba(1,1,1,1) 50%,rgba(9,9,9,1) 53%,rgba(67,67,67,1) 76%,rgba(48,48,48,1) 87%,rgba(23,23,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#171717',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.footer .logo img {
+  height: 68px;
+}
+
+.footer .logo button {
+  border-radius: 4px;
+  background: #002d49;
+  color: white;
+  border: .5px solid white;
+}
+
+.footer .logo p {
+  color: white;
+  margin-top: 0;
+  padding-top: 23px;
+  padding-bottom: 26px;
+}
+
+.footer .menu h2 {
+  color: white;
+  margin-bottom: 46px;
+}
+
+.footer .menu a {
+  display: block;
+  margin-top: 16px;
+  color: white;
+  font-size: 25px;
+}
+
+.footer .menu a:hover {
+  color: #002d49;
+}
+
+.footer .social a {
+  display: block;
+  margin: 10px;
+  font-size: 35px;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer .social a {
+    display: inline;
+  }
+
+  .footer .menu {
+    margin-top: 15px;
+  }
+
+  .footer .menu a {
+    margin-top: 10px;
+  }
+
+  .footer .menu h2 {
+    margin-bottom: 19px;
+  }
+
+  .logo, .menu {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+  }
+}

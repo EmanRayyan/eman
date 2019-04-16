@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Creat Vot</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assests/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="assests/css/style.css" type="text/css">
+</head>
+
+<body>
+
+
+  <!-- The sidebar -->
+  <div class="sidebar">
+    <h2>VOTS</h2>
+    <button type="button" name="button"> Add New Vot</button>
+  </div>
+
+  <!-- Page content -->
+  <div class="content">
+    <div class="subSection">
+      <h3 class="vot-title">TITLE</h3>
+      <input type="" name="" value="">
+      <button class="editTitle" onclick="openForm()"><i class="fas fa-edit"></i></button>
+    </div>
+    <!--  ت////////<i class="fas fa-edit"></i>///////-->
+    <div class="form-popup" id="myForm">
+      <form action="" class="form-container">
+        <h1>Add description to option</h1>
+
+        <input type="text" name="email" required>
+
+
+        <button type="submit" class="btn">Done</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+
+
+    <!-- ////////////// -->
+    <div class="subSection ">
+      <h3>Options</h3>
+      <div class="option1">
+        <span>1</span>
+        <input type="" name="" value="">
+        <button class="editTitle" onclick="openForm()"><i class="fas fa-edit"></i></button> </div>
+      <div class="option2">
+        <span>2</span>
+        <input type="" name="" value="">
+        <button class="editTitle" onclick="openForm()"><i class="fas fa-edit"></i></button>
+      </div>
+    </div>
+    <label>VOTING METHOD</label>
+    <div class="create-vote__tooltip-icon btn-popover">i</div>
+    <table class="votingMethod">
+      <tr>
+        <td> <a href="#">Majority</a></td>
+        <td> <a href="#">Cumulative</a></td>
+      </tr>
+    </table>
+    <div class="row">
+      <div class="col-lg-2">
+        <h6>START</h6>
+        <button class="btn" type="button" name="button">Select date</button>
+      </div>
+      <div class="col-lg-2">
+        <h6>END</h6>
+        <button class="btn" type="button" name="button">Select date</button>
+      </div>
+    </div>
+    <label>VOTERS ACSESS</label>
+    <div class="create-vote__tooltip-icon btn-popover">i</div>
+    <table class="votingMethod">
+      <tr>
+        <td> <a href="#">Unique codes</a></td>
+        <td> <a href="#">Public vot</a></td>
+      </tr>
+    </table>
+
+  </div>
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assests/js/jquery3.3.1.js"></script>
+  <script src="assests/js/popper.min.js"></script>
+  <script src="assests/js/bootstrap.min.js"></script>
+  <script src="assests/js/main.js"></script>
+</body>
+
+</html>
